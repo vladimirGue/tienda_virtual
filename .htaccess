@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+ErrorDocument 404 http://localhost:8080/portafolio/curso_php/tienda_virtual/error/
+
+#no escribir nada con un directorio ni con un fichero en la url
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.*)/(.*) Index.php?controller=$1&action=$2
+</IfModule>

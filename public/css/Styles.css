@@ -1,0 +1,93 @@
+.cart{
+    position: relative;
+}
+.cart span{
+    position: absolute;
+    top: -15px;
+    justify-content: center;
+    align-items: center;
+    left: 55%;
+    font-size: 60%;
+}
+.card_prod .prix{
+    color: blue;
+}
+.footer_{
+    background: black;
+    padding: 20px;
+}
+.footer_ h3,.footer_ i{
+    color: white;
+}
+.footer_ i{
+    font-size: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.h5_TITLE{
+    text-align: center;
+}
+.d-flex{
+    border-bottom: 1px solid white;
+}
+.sticky-top{
+    z-index: 1!important;
+}
+.dropdown-item:hover{
+    background-color: #007bff !important;
+    color: white !important;
+}
+/*productos destacados*/
+.Pdestacados_h4{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.card-img-top{
+    height: 60%;
+}
+.card-img{
+    padding: 0 !important;
+}
+.btn-link{
+    border:0;
+    background: transparent;
+}
+.card-btns{
+    padding: 1.25rem;
+    padding-top: 0;
+}
+/*Index Carrito*/
+.carritoTotal h4{
+    text-align: end;
+    color: green;
+}
+.carr-Vacio{
+    margin: 20px;
+    opacity: 0.4;
+}
+.thumbnail h3{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+}
+.card-total-moddle{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.card-total-footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.title-h2{
+    background: #DDDDDD;
+    padding: 3%;
+}
+a.danger{
+    color: red!important;
+}
+/*Pagina de pedido Hacer*/
+.title_Pedido{
+    background: blue;
+    color: white;
+}
